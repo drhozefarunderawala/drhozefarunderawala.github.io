@@ -48,12 +48,13 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   display: inline;
-  color: rgba(52, 52, 52, 1);
+  color: rgba(72, 72, 72, 1);
 }
 
 .no-select::before {
   content: attr(bullet);
-  margin-right: 6px;
+  font-family: "Noto Emoji";
+  font-weight: 21;
 }
 
 .section-general {
@@ -485,7 +486,8 @@ img {
 }
 
 .thicker-plus {
-  font-weight: 553;
+  font-weight: 53;
+  font-size: 12px;
 }
 
 /*--------------------------
