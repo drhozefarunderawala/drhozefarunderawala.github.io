@@ -485,8 +485,9 @@ img {
   text-decoration: underline;
 }
 
-.thicker-plus {
-  font-size: 12px;
+.thicker-plus::before {
+  font-weight: 900 !important;
+  font-size: 21px !important;
 }
 
 /*--------------------------
